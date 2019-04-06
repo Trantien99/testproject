@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.tieude{font-family: Arial;
+		font-weight: bold;
+		font-size: 18px;
+		color: white;
+		margin-left: 10px;
+		padding-top: 3px;
+		}
+		
+.tieude2{font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+		color: white;
+		margin-left: 6px;
+		padding-top: 6px;
+		}
+
+.tieude21{font-family: Arial;
+		font-weight: bold;
+		font-size: 14px;
+		color: white;
+		margin-left: 2px;
+		padding-top: 6px;
+		}
+
+.tieudebox3{
+		width: 195px;
+		height: 30px;
+		max-height: 30px;
+		max-width: 195px;
+       }
+			

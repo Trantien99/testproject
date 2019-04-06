@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box1{border: 1px solid #01DFD7;
+      width: 195px;
+      max-height: 400px;
+      background-color: white;
+      margin-bottom: 10px;
+      float: left;
+      background-color: #EFFBFB;
+}
+
+.box1 > ul{list-style:none;
+           margin: 0px;
+           padding: 0px;
+}
+.box1 > ul > li {margin: 6px 0 10px 0;}
+
+.box1 > ul > li > a{
+    text-decoration: none;
+    font-family: Time News Roman;
+    font-size: 20px;
+    /*    font-weight: ;*/
+    color: #01DFD7;
+    margin: 5px;
+
+}
+
+.trong{height: 5px;}
+
+.box1 > ul ul li a{
+    text-decoration: none;
+    color: #01DFD7;
+}
+
+.box1 > ul ul li{
+    display: inline-block;
+    font-family: Time News Roman;
+    size: 18px;
+    margin: 4px;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: #01DFD7;
+    margin: 0px;
+    padding: 0px;
+}
+.box1 >ul ul li:hover a{color: red;}
+/*.box1 > ul> li:nth-child(2n){background-color: #e9e9e9;}
+.box1 > ul> li:nth-child(2n+1){background-color: white;}*/
+
+.tieudebox3{
+    width: 195px;
+    height: 30px;
+    max-height: 30px;
+    max-width: 195px;
+}

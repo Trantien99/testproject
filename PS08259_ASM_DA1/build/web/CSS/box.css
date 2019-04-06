@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2019, 8:03:34 PM
+    Author     : My PC
+*/
+header{
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    min-width: 1000px;
+    background-color: blue;
+}
+.box1{
+    width: 15%;
+    min-height: 500px;
+    float: left;
+    background-color: yellow;
+}
+.box2{
+    width: 84%;
+    min-height: 870px;
+    float: right;
+    background-color: white;
+}
+.logout{
+    position: absolute;
+    right: 30px;
+}
+.logout u1:hover{
+    color: red;
+}
+.logout u2:hover{
+    color: red;
+}

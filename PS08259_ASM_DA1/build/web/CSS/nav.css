@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2019, 9:24:21 AM
+    Author     : My PC
+*/
+body{width: 1020px;
+     height: 100%;
+     max-width: 1300px;
+     min-width: 1300px;
+}
+nav{
+    width: 100%;
+    height: 43px;
+    min-height: 43px;
+    background-color: #01DFD7;
+    margin: auto;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 4px 10px gray;
+    margin-bottom: 10px;
+}
+
+nav>ul {position: relative;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        left: 250px;
+}
+
+nav>ul>li{
+    display: inline-block;
+    text-align:center;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+nav>ul>li>a{
+    padding: 8px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+    color: white;
+}
+
+nav >ul > li:hover ul{
+    box-shadow:0 0 1px gray;
+    background-color: white;
+    padding: 0px;
+    display: block;
+    z-index: 10;
+}
+nav >ul ul a{
+    width: 150px;
+    font-family: Arial;
+    font-size: 16px;
+    font-variant: annotation;
+    color: darkgray;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    margin: 10px 20px 0px 0px;
+    float: left;}
+
+nav >ul ul a:hover{color: #01DFD7;}
+
+nav>ul>li>a:hover{
+    color: #01DFD7;
+    background-color: white;
+}
+
+nav ul ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:0 0 3px 3px;
+    background-color:white;
+    margin-top: 11px;
+    max-width: 350px;
+}
+mav .lg1{
+    position: absolute;
+    width: 100px;
+    color: white;
+    float: right;
+}
+
+.seach1{
+    position: relative;
+    top: -29px;
+    margin-top: 3px;
+    width: 260px;
+    height: 34px;
+    float: right;
+    margin-right: 50px;
+    background-color: #01DFD7;;
+    position: relative;
+    border-radius: 5px;
+    z-index: 10;
+    right: 50px;
+}
+.seach1 input{
+    width: 200px;
+    height: 20px;
+    margin-top: 4px;
+    float: left;
+    margin-left: 5px;
+    font-size: 18px;
+    z-index: 11;
+}
+
+.seach1 button{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    margin-top: 1px;
+    right: 5px;
+    position: absolute;
+    opacity: 0;
+    z-index: 11;
+}
+.seach1 img{
+    margin-top: 1px;
+    right: 5px;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
